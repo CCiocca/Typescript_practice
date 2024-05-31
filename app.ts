@@ -49,3 +49,20 @@ let arrString: string[] = ['ciao', 'hi', 'bonjour', 'hola']
 //any
 let prova: any[] = [3, 'ciao', true]
 
+//union
+let prova2: string | number = 'hey'
+
+//custom type
+type Person = {
+    name: string,
+    surname: string,
+    age: number
+}
+
+let person1: Person
+
+person1 = {
+    name: 'John',
+    surname: 'Smith',
+    age: 38
+}
