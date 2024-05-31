@@ -79,3 +79,16 @@ let person2 = {
     surname: 'Rossi',
     role: Role.ADMIN
 }
+
+//lesson 07 : functions
+function sum (num1: number, num2 = 1): number {
+    return num1 + num2
+}
+
+function niente(stringa: string): void{
+    console.log(stringa)
+}
+
+let prova3: (x: number, y: number) => number 
+prova3 = sum
+
