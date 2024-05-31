@@ -10,6 +10,8 @@ let string1: string;
 let bool1: boolean;
 
 // lesson 05: objects, array, tuple
+
+//object
 let person: {
     name: string,
     surname: string,
@@ -31,3 +33,19 @@ person = {
         city: "Rome"
     }
 }
+
+function getData(data: {id: number, username: string, password: string}){
+    console.log(data.id);
+}
+
+getData({id:1, username: 'John', password:''})
+
+//array
+let arrNum: number[] = [1,4,5]
+let arrString: string[] = ['ciao', 'hi', 'bonjour', 'hola']
+
+//lesson 06: any, union, custom type, enum
+
+//any
+let prova: any[] = [3, 'ciao', true]
+
