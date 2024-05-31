@@ -66,3 +66,16 @@ person1 = {
     surname: 'Smith',
     age: 38
 }
+
+//enum
+enum Role {
+    ADMIN = 'admin',
+    USER = 'user',
+    GUEST = 'guest'
+}
+
+let person2 = {
+    name: 'Luca',
+    surname: 'Rossi',
+    role: Role.ADMIN
+}
